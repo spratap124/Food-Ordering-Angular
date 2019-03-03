@@ -1,0 +1,38 @@
+.banner-holder{
+    border-radius: 0;
+    background: url(/assets/img/banner1.jpg) no-repeat 0 -180px ;
+    height: 400px;
+    position: relative;
+}
+
+.banner-holder > .overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(255,255,255,0.2) );
+}
+
+.nav-item img{
+    height: 30px;
+    position: relative;
+    top:-4px;
+}
+
+.create-account{
+    border: 4px solid #f44336;
+}
+
+.search-container{
+    width: 50%;
+    bottom: 50px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 
+.create-account:hover{
+    color:#f44336;
+} */

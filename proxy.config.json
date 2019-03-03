@@ -1,0 +1,7 @@
+{
+    "/he-public-data/*":{
+        "target":"http://s3-ap-southeast-1.amazonaws.com",
+        "secure":true,
+        "logLevel": "debug"
+    }
+}

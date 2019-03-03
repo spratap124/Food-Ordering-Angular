@@ -1,0 +1,28 @@
+<div class="col-md-3 card-wrapper position-relative">
+  <a class="card-link">
+    <div class="card-item">
+      <div class="box">
+        <div class="img-holder">
+          <img src="assets/img/banner1.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="details">
+          <div class="name">
+              {{item.Name}}
+          </div>
+          <div class="city">
+              <span> <i class="material-icons md-15 location">location_on</i></span><a href="">{{item.City}}</a>
+          </div>
+          <div class="cuisines margin-sm">
+             <app-cuisine [cuisines]="item['Cuisine Style']"></app-cuisine>
+          </div>
+          <div class="ratings-holder margin-sm clearfix">
+              <app-ratings [ratings]="item.Rating"></app-ratings>
+              <div class="reviews">
+                   <p> <span>Reviews: </span> {{item['Number of Reviews']}}</p>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

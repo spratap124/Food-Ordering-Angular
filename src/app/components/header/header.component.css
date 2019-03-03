@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #212121 !important;
+    /* background-color: #ff5013!important; */
+    /* background-color: #fff !important; */
+}
+
+.nav-item img{
+    height: 30px;
+    position: relative;
+    top:-4px;
+}

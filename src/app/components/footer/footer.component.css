@@ -1,0 +1,23 @@
+.footer{
+    padding: 20px 0;
+    color: #fff;
+    background: #212121;
+    
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #f44336;
+}
+
+.navbar-brand img{
+    color:#fff;
+}
+
+.social{
+    margin-left: 20px;
+}

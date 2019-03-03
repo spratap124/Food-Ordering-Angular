@@ -1,0 +1,102 @@
+.card-wrapper{
+    float: left;
+}
+
+.card-wrapper > a{
+    text-decoration: none;
+    display: block;
+    color: #282c3f;
+    cursor: pointer;
+
+}
+.card-wrapper > a:hover{
+    color:#f44336;
+}
+
+.card-wrapper .card-item{
+    padding: 20px 20px 20px;
+    border: 1px solid #fff;
+    contain: content;
+    min-height: 390px;
+}
+
+.card-wrapper .card-item:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgba(218,220,230,.6);
+   
+}
+
+.img-holder img{
+    
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.card-wrapper .card-item:hover .img-holder img{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    
+}
+
+.card-item .box{
+    position: relative;
+
+}
+
+.box .img-holder{
+    background: #eef0f5;
+    position: relative;
+    overflow: hidden;
+}
+
+.details{
+    margin-top: 14px;
+}
+
+.details .city > a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #ff958d;
+}
+
+.city .location{
+    position: relative;
+    top:3px;
+}
+
+.details .city > a:hover{
+    color: #f44336;
+}
+
+.details .cuisines{
+    color: #99979c;
+    font-size: 12px;
+}
+
+.details .ratings-holder{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.details .reviews{
+    color: #99979c;
+    font-size: 12px;
+    width: 80px;
+    height: 20px;
+    float: right;
+}
+
+
+
+/* .details .ratings-holder{
+
+}
+ */
+
+

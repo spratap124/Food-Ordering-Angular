@@ -1,1 +1,43 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.margin-sm {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar a{
+    color:#fff;
+}
+
+.navbar a:hover{
+    color: #f44336;
+    /* color: #fff; */
+}
+
+
+.container-fluid{
+    padding: 0;
+}
+
+.nabar .navbar-right{
+    float: right;
+}
+
+
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-15 { font-size: 15px; }

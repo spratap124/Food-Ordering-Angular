@@ -1,0 +1,10 @@
+.material-icons.search{
+    position: relative;
+    top:5px;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #f44336;
+    border-color: #f44336;
+}

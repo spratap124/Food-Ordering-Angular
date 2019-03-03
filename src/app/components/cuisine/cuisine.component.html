@@ -1,0 +1,4 @@
+<p>
+  <span> <i class="material-icons md-15 location">fastfood</i></span>
+  <span *ngFor="let cuisine of cuisines; let i = index;"> {{cuisine}} <span *ngIf="i < cuisines.length-1">,</span></span>
+</p>
