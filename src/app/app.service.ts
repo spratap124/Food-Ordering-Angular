@@ -15,7 +15,8 @@ export class AppService {
     itemsPerPage = 32;
     startItemNumber = 0;
     endItemNumber = 32;
-
+    
+    searchKey = new EventEmitter<string>();
     pageChanged = new EventEmitter<number>();
     listChanged = new EventEmitter<any[]>();
 
@@ -49,7 +50,7 @@ export class AppService {
 
     updatePageNumber(pageNumber){
       
-      this.currentPage = +pageNumber;
+      this.currentPage =  +pageNumber;
      
       this.pageChanged.emit(this.currentPage);
 
@@ -91,7 +92,7 @@ export class AppService {
       //   return el.Name.toString().toLowerCase().includes(restaurant.toLowerCase());
       // })
 
-      // this.listChanged.emit(this.restaurantList)
+      this.searchKey.emit(restaurant);
     
     }
     

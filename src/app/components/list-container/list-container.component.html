@@ -1,4 +1,4 @@
 <div class="container clearfix list-container">
   <!-- list of all restaurent -->
-  <app-restaurant-item  *ngFor="let item of restauranList" [item]="item"></app-restaurant-item>
+  <app-restaurant-item  *ngFor="let item of restauranList | filter : searchKey" [item]="item"></app-restaurant-item>
 </div>

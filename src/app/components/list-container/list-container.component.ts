@@ -9,6 +9,7 @@ import { AppService } from 'src/app/app.service';
 export class ListContainerComponent implements OnInit {
 
   restauranList = []
+  searchKey: String;
   
   constructor(private appService: AppService) { }
 
@@ -18,6 +19,12 @@ export class ListContainerComponent implements OnInit {
     this.appService.listChanged.subscribe(
       (list)=>{
         this.restauranList = list;
+      }
+    )
+
+    this.appService.searchKey.subscribe(
+      (search)=>{
+        this.searchKey = search;
       }
     )
   }

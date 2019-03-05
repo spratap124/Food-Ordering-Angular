@@ -19,6 +19,7 @@ import { RatingsComponent } from './components/ratings/ratings.component';
 import { PaginationComponent } from './components/pagination/pagination.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FeatureComponent } from './components/feature/feature.component';
+import { FilterPipe }from './filter.pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { FeatureComponent } from './components/feature/feature.component';
     RatingsComponent,
     PaginationComponent,
     FooterComponent,
-    FeatureComponent
+    FeatureComponent,
+    FilterPipe
   
   ],
   imports: [
