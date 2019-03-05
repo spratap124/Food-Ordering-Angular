@@ -11,6 +11,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ![alt text](https://github.com/spratap124/Food-Ordering-Angular/blob/master/src/assets/img/Screenshot3.png)
 --------------------------------------------------------------------------------------------------------------------------------------
-![alt text](https://github.com/spratap124/Food-Ordering-Angular/blob/master/src/assets/img/Screenshot2.png)
 --------------------------------------------------------------------------------------------------------------------------------------
 ![alt text](https://github.com/spratap124/Food-Ordering-Angular/blob/master/src/assets/img/Screenshot1.png)
